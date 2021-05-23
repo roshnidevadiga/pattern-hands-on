@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 import React from "react";
 import Home from "./pages/home/Home";
 import CustomHooks from "./pages/custom hooks/CustomHooks";
