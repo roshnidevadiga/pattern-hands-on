@@ -1,15 +1,17 @@
 import React from "react";
+import Home from "./pages/home/Home";
+import CustomHooks from "./pages/custom hooks/CustomHooks";
 
 const Routes = [
     {
         path: "/",
         sidebarName: "Home",
-        component: () => <div>Home</div>,
+        component: () => <Home />,
     },
     {
         path: "/custom-hooks",
         sidebarName: "Custom Hooks",
-        component: () => <div>Custom Hooks</div>,
+        component: () => <CustomHooks />,
     },
 ];
 
