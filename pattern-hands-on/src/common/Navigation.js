@@ -16,7 +16,7 @@ const Navigation = props => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleDrawer = () => {
-        setIsOpen(!isOpen);
+        setIsOpen((wasOpen)=>!wasOpen);
     };
 
     const isActiveRoute = routeName => {
