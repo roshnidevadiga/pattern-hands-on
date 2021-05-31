@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
+import { useCountContext } from "./useCountContext";
 
 const CountDisplay = () => {
+    const { clicks } = useCountContext();
     return (
         <div>
-            Display
+            Clicks: <span>{clicks}</span>
         </div>
     );
 };
