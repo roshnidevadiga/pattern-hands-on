@@ -2,6 +2,7 @@
 import React from "react";
 import Home from "./pages/home/Home";
 import CustomHooks from "./pages/custom hooks/CustomHooks";
+import CompoundUsage from "./pages/compound_components/Usage";
 
 const Routes = [
     {
@@ -14,6 +15,11 @@ const Routes = [
         sidebarName: "Custom Hooks",
         component: () => <CustomHooks />,
     },
+    {
+        path: "/compound-component",
+        sidebarName: "Compound Components",
+        component: () => <CompoundUsage />,
+    }
 ];
 
 export default Routes;
