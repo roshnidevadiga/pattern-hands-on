@@ -1,7 +1,5 @@
 import { useState } from "react";
-
-const MIN_CLICKS = 0,
-    MAX_CLICKS = 10;
+import { MIN_CLICKS, MAX_CLICKS } from "./constants";
 
 const useClickState = () => {
     const [clicks, setClick] = useState(0);
